@@ -1,0 +1,68 @@
+.myDiv {
+    color:hotpink;
+    text-shadow: 0px 0px 5px hotpink;
+}
+.Comments {
+    font-style:italic;
+    font-weight:bold;
+    color:gray;
+}
+.Tag {
+    background-color:forestgreen;
+    padding:2px;
+    border-radius:10px;
+    font-weight:bold;
+}
+.Hover1 {
+    background-color:gold;
+    padding:5px;
+    border-radius:10px;
+    border:outset 5px gold;
+    transition-duration: 0.4s;
+}
+.Hover1:hover {
+    background-color:rgb(255, 237, 138);
+    border:outset 5px rgb(255, 237, 138);
+    color:black;
+    text-shadow: 0px 0px 5px gold;
+}
+.Hover2 {
+    border-radius:10px;
+    border:solid 3px white;
+    transition-duration: 0.4s;
+    padding:3px;
+}
+.Hover2:hover {
+    border:solid 3px rgba(0, 0, 0, 0);
+    color:black;
+    background-color: white;
+    box-shadow: 4px 4px #ffffff80;
+    color:#5f3dc4;
+}
+.Hover3 {
+    text-shadow: 0px 0px 0px;
+    transition-duration: 0.4s;
+}
+.Hover3:hover {
+    text-shadow: 0px 0px 5px white;
+}
+.Hover4 {
+    text-shadow: 0px 0px 0px;
+    transition-duration: 0.4s;
+}
+.Hover4:hover {
+    text-shadow: 2px 2px white;
+}
+.Hover5 {    /* My Design Choice */
+	color:white;
+	color:rgba(255, 0, 0, 0);
+	-webkit-text-stroke: 1px #90EE90;
+	transition-duration:0.4s;
+    font-family:Arial;
+    font-weight:bold;
+    transition-duration: 0.4s;
+}
+.Hover5:hover {
+	color:#90EE90;
+    text-shadow:0px 0px 5px #90EE90;
+}
